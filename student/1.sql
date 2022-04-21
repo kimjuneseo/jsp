@@ -9,13 +9,13 @@ create table student_tbl_004(
     st_out_date varchar2(30)
 )
 
-insert into student_tbl_004 (st_no, st_major, st_nm, st_addr, st_phone, st_email, st_in_date) values('30501', 'À¯ºñÄõÅÍ½º', '°­½ÅÀÏ', '¼­¿ï½Ã ¼ÛÆÄ±¸', '01011112222', 'ksj@sdhs.kr','20170302');
-insert into student_tbl_004 (st_no, st_major, st_nm, st_addr, st_phone, st_email, st_in_date) values('30502', 'À¯ºñÄõÅÍ½º', '±èº´Ã¶', '¼­¿ï½Ã °­³²±¸', '01022223333', 'kbc@sdhs.kr','20170302');
-insert into student_tbl_004 (st_no, st_major, st_nm, st_addr, st_phone, st_email, st_in_date) values('30503', 'À¯ºñÄõÅÍ½º', '±èÁö¿ø', '¼­¿ï½Ã ¼ÛÆÄ±¸', '01033334444', 'kjw@sdhs.kr','20170302');
-insert into student_tbl_004 (st_no, st_major, st_nm, st_addr, st_phone, st_email, st_in_date) values('30504', 'À¯ºñÄõÅÍ½º', '¹ÚÈÆ', '¼­¿ï½Ã ¼ºµ¿±¸',   '01044445555', 'bh@sdhs.kr','20170302');
-insert into student_tbl_004 (st_no, st_major, st_nm, st_addr, st_phone, st_email, st_in_date) values('30505', 'À¯ºñÄõÅÍ½º', '¼ÛÁß±â', '¼­¿ï½Ã µ¿ÀÛ±¸', '01055556666', 'sjk@sdhs.kr','20170302');
-insert into student_tbl_004 (st_no, st_major, st_nm, st_addr, st_phone, st_email, st_in_date) values('30506', 'À¯ºñÄõÅÍ½º', '¼ÛÇý±³', '¼­¿ï½Ã ¿ë»ê±¸', '01066667777', 'shk@sdhs.kr','20170302');
-insert into student_tbl_004 (st_no, st_major, st_nm, st_addr, st_phone, st_email, st_in_date) values('30507', 'À¯ºñÄõÅÍ½º', 'Áø¼ö', '¼­¿ï½Ã ±¤Áø±¸', '01077778888', 'jg@sdhs.kr','20170302');
+insert into student_tbl_004 (st_no, st_major, st_nm, st_addr, st_phone, st_email, st_in_date) values('30501', 'ìœ ë¹„ì¿¼í„°ìŠ¤', 'ê°•ì‹ ì¼', 'ì„œìš¸ì‹œ ì†¡íŒŒêµ¬', '01011112222', 'ksj@sdhs.kr','20170302');
+insert into student_tbl_004 (st_no, st_major, st_nm, st_addr, st_phone, st_email, st_in_date) values('30502', 'ìœ ë¹„ì¿¼í„°ìŠ¤', 'ê¹€ë³‘ì² ', 'ì„œìš¸ì‹œ ê°•ë‚¨êµ¬', '01022223333', 'kbc@sdhs.kr','20170302');
+insert into student_tbl_004 (st_no, st_major, st_nm, st_addr, st_phone, st_email, st_in_date) values('30503', 'ìœ ë¹„ì¿¼í„°ìŠ¤', 'ê¹€ì§€ì›', 'ì„œìš¸ì‹œ ì†¡íŒŒêµ¬', '01033334444', 'kjw@sdhs.kr','20170302');
+insert into student_tbl_004 (st_no, st_major, st_nm, st_addr, st_phone, st_email, st_in_date) values('30504', 'ìœ ë¹„ì¿¼í„°ìŠ¤', 'ë°•í›ˆ', 'ì„œìš¸ì‹œ ì„±ë™êµ¬',   '01044445555', 'bh@sdhs.kr','20170302');
+insert into student_tbl_004 (st_no, st_major, st_nm, st_addr, st_phone, st_email, st_in_date) values('30505', 'ìœ ë¹„ì¿¼í„°ìŠ¤', 'ì†¡ì¤‘ê¸°', 'ì„œìš¸ì‹œ ë™ìž‘êµ¬', '01055556666', 'sjk@sdhs.kr','20170302');
+insert into student_tbl_004 (st_no, st_major, st_nm, st_addr, st_phone, st_email, st_in_date) values('30506', 'ìœ ë¹„ì¿¼í„°ìŠ¤', 'ì†¡í˜œêµ', 'ì„œìš¸ì‹œ ìš©ì‚°êµ¬', '01066667777', 'shk@sdhs.kr','20170302');
+insert into student_tbl_004 (st_no, st_major, st_nm, st_addr, st_phone, st_email, st_in_date) values('30507', 'ìœ ë¹„ì¿¼í„°ìŠ¤', 'ì§„ìˆ˜', 'ì„œìš¸ì‹œ ê´‘ì§„êµ¬', '01077778888', 'jg@sdhs.kr','20170302');
 
 create table subject_tbl_004(
     sbj_cd varchar2(8) primary key,
@@ -28,9 +28,9 @@ insert into subject_tbl_004 values('A002', 'JAVA', 'Y');
 insert into subject_tbl_004 values('A003', 'PHP', 'Y');
 insert into subject_tbl_004 values('A004', 'JAVASCRIPT', 'Y');
 insert into subject_tbl_004 values('A005', 'CSS', 'Y');
-insert into subject_tbl_004 values('B001', '±¹¾î', 'N');
-insert into subject_tbl_004 values('B002', '¿µ¾î', 'N');
-insert into subject_tbl_004 values('B003', '¼öÇÐ', 'N');
+insert into subject_tbl_004 values('B001', 'êµ­ì–´', 'N');
+insert into subject_tbl_004 values('B002', 'ì˜ì–´', 'N');
+insert into subject_tbl_004 values('B003', 'ìˆ˜í•™', 'N');
 
 create table exam_tbl_004(
     exam_ymd varchar2(8) ,
@@ -41,8 +41,8 @@ create table exam_tbl_004(
     exam_a_point number(3),
     constraint exam_pk primary key (exam_ymd, exam_no),
     constraint exam_fk foreign key (exam_st_no)
-	--ºÎ¸ðÅ×ÀÌºí °ªÀÌ »èÁ¦µÇ¸é ¿¬¼âÀûÀ¸·Î ÀÚ½Ä Å×ÀÌºí °ªµµ Áö¿öÁü
-    --on delete cascade¾øÀ¸¸é ¾È Áö¿öÁü ÂüÁ¶µÇ´Â ºÎ¸ð Å×ÀÌºíÀÇ Çà¿¡ ´ëÇÑ delect¸¦ Çã¿ëÇÑ´Ù´Â °Í
+	--ë¶€ëª¨í…Œì´ë¸” ê°’ì´ ì‚­ì œë˜ë©´ ì—°ì‡„ì ìœ¼ë¡œ ìžì‹ í…Œì´ë¸” ê°’ë„ ì§€ì›Œì§
+    --on delete cascadeì—†ìœ¼ë©´ ì•ˆ ì§€ì›Œì§ ì°¸ì¡°ë˜ëŠ” ë¶€ëª¨ í…Œì´ë¸”ì˜ í–‰ì— ëŒ€í•œ delectë¥¼ í—ˆìš©í•œë‹¤ëŠ” ê²ƒ
     	references student_tbl_004(st_no) on delete cascade,
     constraint exam_fk2 foreign key (exam_sbj_cd)
     	references subject_tbl_004(sbj_cd) on delete cascade
@@ -84,31 +84,31 @@ select exam_sample.nextval from dual;
 select exam_sample.currval from dual; 
 
 -- 3
--- ´õºí ÄõÅÍÀÌ¼ÇÀ¸·Î  Ãâ·ÂÇØ¾ß °ø¹é°ú Æ¯¼ö¹®ÀÚ Ãâ·Â°¡´É ÇÑ±Ûµµ
-select to_char(sysdate, 'YYYY-DD-MM') as "¿À´ÃÀÇ ³¯Â¥" from dual; 
+-- ë”ë¸” ì¿¼í„°ì´ì…˜ìœ¼ë¡œ  ì¶œë ¥í•´ì•¼ ê³µë°±ê³¼ íŠ¹ìˆ˜ë¬¸ìž ì¶œë ¥ê°€ëŠ¥ í•œê¸€ë„
+select to_char(sysdate, 'YYYY-DD-MM') as "ì˜¤ëŠ˜ì˜ ë‚ ì§œ" from dual; 
 
 -- 4
--- °ø¹éÇÏ³ª¶óµµ ³Ö¾îÁà¾ß µÊ
+-- ê³µë°±í•˜ë‚˜ë¼ë„ ë„£ì–´ì¤˜ì•¼ ë¨
 select 
-	substr(st_no, 1,1) as "ÇÐ³â", substr(st_no, 3,1) as "¹Ý ", substr(st_no, 5,1) as "¹øÈ£",
-	st_major as "Àü°ø",
-	st_nm as "ÀÌ¸§",
-	' ' as "Ãâ¼®"
+	substr(st_no, 1,1) as "í•™ë…„", substr(st_no, 3,1) as "ë°˜ ", substr(st_no, 5,1) as "ë²ˆí˜¸",
+	st_major as "ì „ê³µ",
+	st_nm as "ì´ë¦„",
+	' ' as "ì¶œì„"
 from student_tbl_004 
 
 -- 5
 select
-	st_no as "ÇÐ¹ø", 
-	st_nm  as "¼º¸í",
-	st_major as "Àü°ø", 
-	exam_w_point || 'Á¡' as "ÇÊ±âÆò°¡" ,
-	exam_a_point || 'Á¡' as "½Ç±âÆò°¡",
-	sum(exam_w_point + exam_a_point)/2 || 'Á¡'  as "Æò±Õ",
+	st_no as "í•™ë²ˆ", 
+	st_nm  as "ì„±ëª…",
+	st_major as "ì „ê³µ", 
+	exam_w_point || 'ì ' as "í•„ê¸°í‰ê°€" ,
+	exam_a_point || 'ì ' as "ì‹¤ê¸°í‰ê°€",
+	sum(exam_w_point + exam_a_point)/2 || 'ì '  as "í‰ê· ",
 	case when sum(exam_w_point + exam_a_point)/2 >= 90 then 'A'
 	when sum(exam_w_point + exam_a_point)/2 >= 80 and sum(exam_w_point + exam_a_point)/2 < 90  then 'B'
 		 when sum(exam_w_point + exam_a_point)/2 >= 70 and sum(exam_w_point + exam_a_point)/2 < 80  then 'C'
 		 when sum(exam_w_point + exam_a_point)/2 >= 60 and sum(exam_w_point + exam_a_point)/2 < 70  then 'D'
-	else 'E' end as "µî±Þ"
+	else 'E' end as "ë“±ê¸‰"
 from exam_tbl_004, student_tbl_004
 where exam_st_no = st_no
 and exam_sbj_cd = 'A001'
@@ -117,17 +117,17 @@ order by st_no
 
 -- 5-1
 select
-	st_no as "ÇÐ¹ø", 
-	st_nm  as "¼º¸í",
-	st_major as "Àü°ø", 
-	exam_w_point || 'Á¡' as "ÇÊ±âÆò°¡" ,
-	exam_a_point || 'Á¡' as "½Ç±âÆò°¡",
-	round(sum(exam_w_point + exam_a_point)/2,0) || 'Á¡'  as "Æò±Õ",
+	st_no as "í•™ë²ˆ", 
+	st_nm  as "ì„±ëª…",
+	st_major as "ì „ê³µ", 
+	exam_w_point || 'ì ' as "í•„ê¸°í‰ê°€" ,
+	exam_a_point || 'ì ' as "ì‹¤ê¸°í‰ê°€",
+	round(sum(exam_w_point + exam_a_point)/2,0) || 'ì '  as "í‰ê· ",
 	case when sum(exam_w_point + exam_a_point)/2 >= 90 then 'A'
 	when sum(exam_w_point + exam_a_point)/2 >= 80 and sum(exam_w_point + exam_a_point)/2 < 90  then 'B'
 		 when sum(exam_w_point + exam_a_point)/2 >= 70 and sum(exam_w_point + exam_a_point)/2 < 80  then 'C'
 		 when sum(exam_w_point + exam_a_point)/2 >= 60 and sum(exam_w_point + exam_a_point)/2 < 70  then 'D'
-	else 'F' end as "µî±Þ"
+	else 'F' end as "ë“±ê¸‰"
 from exam_tbl_004, student_tbl_004
 where exam_st_no = st_no
 and exam_sbj_cd = 'A001'
@@ -136,17 +136,17 @@ order by st_no
 
 -- 5-2
 select
-	st_no as "ÇÐ¹ø", 
-	st_nm  as "¼º¸í",
-	st_major as "Àü°ø", 
-	exam_w_point || 'Á¡' as "ÇÊ±âÆò°¡" ,
-	exam_a_point || 'Á¡' as "½Ç±âÆò°¡",
-	sum(exam_w_point + exam_a_point)/2 || 'Á¡'  as "Æò±Õ",
+	st_no as "í•™ë²ˆ", 
+	st_nm  as "ì„±ëª…",
+	st_major as "ì „ê³µ", 
+	exam_w_point || 'ì ' as "í•„ê¸°í‰ê°€" ,
+	exam_a_point || 'ì ' as "ì‹¤ê¸°í‰ê°€",
+	sum(exam_w_point + exam_a_point)/2 || 'ì '  as "í‰ê· ",
 	case when sum(exam_w_point + exam_a_point)/2 >= 90 then 'A'
 	when sum(exam_w_point + exam_a_point)/2 >= 80 and sum(exam_w_point + exam_a_point)/2 < 90  then 'B'
 		 when sum(exam_w_point + exam_a_point)/2 >= 70 and sum(exam_w_point + exam_a_point)/2 < 80  then 'C'
 		 when sum(exam_w_point + exam_a_point)/2 >= 60 and sum(exam_w_point + exam_a_point)/2 < 70  then 'D'
-	else 'F' end as "µî±Þ"
+	else 'F' end as "ë“±ê¸‰"
 from exam_tbl_004, student_tbl_004
 where exam_st_no = st_no
 and exam_sbj_cd = 'A001'
@@ -155,13 +155,13 @@ order by sum(exam_w_point + exam_a_point)/2 desc
 
 -- 5-3
 select
-	st_no as "ÇÐ¹ø", 
-	st_nm  as "¼º¸í",
+	st_no as "í•™ë²ˆ", 
+	st_nm  as "ì„±ëª…",
 	case when sum(exam_w_point + exam_a_point)/2 >= 90 then 'A'
 		when sum(exam_w_point + exam_a_point)/2 >= 80 and sum(exam_w_point + exam_a_point)/2 < 90  then 'B'
 		 when sum(exam_w_point + exam_a_point)/2 >= 70 and sum(exam_w_point + exam_a_point)/2 < 80  then 'C'
 		 when sum(exam_w_point + exam_a_point)/2 >= 60 and sum(exam_w_point + exam_a_point)/2 < 70  then 'D'
-	else 'F' end as "µî±Þ"
+	else 'F' end as "ë“±ê¸‰"
 from exam_tbl_004, student_tbl_004
 where exam_st_no = st_no
 and exam_sbj_cd = 'A001'
@@ -172,14 +172,37 @@ order by sum(exam_w_point + exam_a_point)/2 desc
 -- 5-4
 select * from(
 	select 
-	rank() over(order by sum(exam_w_point + exam_a_point)/2 desc) as "¼øÀ§",
-	exam_st_no as "ÇÐ¹ø",
-	st_nm as "¼º¸í",
-	st_major as "Àü°ø",
-	sum(exam_w_point + exam_a_point)/2 as "Æò±Õ"
+	rank() over(order by sum(exam_w_point + exam_a_point)/2 desc) as "ìˆœìœ„",
+	exam_st_no as "í•™ë²ˆ",
+	st_nm as "ì„±ëª…",
+	st_major as "ì „ê³µ",
+	sum(exam_w_point + exam_a_point)/2 as "í‰ê· "
 	from exam_tbl_004, student_tbl_004
 	where exam_st_no = st_no
 	and exam_sbj_cd = 'A001'
 	group by exam_st_no,st_nm,st_major,exam_w_point,exam_a_point
 	)
-	where "¼øÀ§" <= 3
+	where "ìˆœìœ„" <= 3
+	
+-- 5-5
+select * from(
+	select 
+	rank() over(order by sum(exam_w_point + exam_a_point)/2 desc) as "ìˆœìœ„",
+	exam_st_no as "í•™ë²ˆ",
+	st_nm as "ì„±ëª…",
+	st_major as "ì „ê³µ",
+	sum(exam_w_point + exam_a_point) as "ì´ì ",
+	sum(exam_w_point + exam_a_point)/4 as "í‰ê· "
+	from exam_tbl_004, student_tbl_004
+	where exam_st_no = st_no
+	group by exam_st_no,st_nm,st_major
+	)
+	where "ìˆœìœ„" <= 3
+	
+-- 5-6
+select 
+	case 
+	
+	
+	
+	
