@@ -1,0 +1,11 @@
+*{margin:0; padding: 0; box-sizing: border-box; color: inherit;}
+.flex{display: flex}
+a{text-decoration: none;}
+
+header{width: 100%; }
+header h2{text-align: center; line-height: 80px; color: #fff; background: blue;}
+header nav{padding: 1rem; gap:2rem; background: }
+
+#index h4{text-align: center; line-height: 30px;}
+footer{width:100%; position: fixed; bottom: 0; text-align: center; background: skyblue; color:#fff; line-height: 40px;}
+table{margin: 0 auto;}
