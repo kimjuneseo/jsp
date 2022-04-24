@@ -1,0 +1,11 @@
+*{margin: 0; padding: 0; box-sizing: border-box; color: inherit;}
+a{text-decoration: none;}
+.title{text-align: center; line-height: 40px;}
+
+header { text-align: center; width: 100%; background: blue;}
+header h2{line-height: 80px;}
+header nav{gap:1.4rem; padding: .4rem; color:#fff; background: skyblue; display: flex}
+
+table{margin: 0 auto;}
+footer{position: fixed; bottom: 0; left: 0; width: 100%;background: skyblue;}
+footer .copy{text-align: center; color: #fff;  line-height: 20px}
