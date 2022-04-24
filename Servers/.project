@@ -3,6 +3,9 @@
 	<name>Servers</name>
 	<comment></comment>
 	<projects>
+		<project>audition</project>
+		<project>shop</project>
+		<project>student</project>
 	</projects>
 	<buildSpec>
 	</buildSpec>
