@@ -1,0 +1,9 @@
+*{margin: 0; padding: 0; box-sizing: border-box; color: inherit;}
+.flex{display: flex;}
+a{text-decoration: none;}
+
+.title{line-height: 50px; text-decoration: center;}
+header{width: 100%; text-align: center; line-height: 60px;}
+nav{padding: .4rem; gap:1rem; display: flex; background: blue; color: #fff;}
+table{margin: 0 auto;}
+footer{line-height: 60px; text-align: center;}

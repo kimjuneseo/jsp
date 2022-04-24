@@ -31,6 +31,9 @@ insert into STORE_TBL_003 values('D001', '사당점', '0');
 insert into STORE_TBL_003 values('D002', '흑석점', '1');
 insert into STORE_TBL_003 values('E001', '금호점', '0');
 
+constraint
+references
+
 create table sale_tbl_003(
 	sale_no varchar2(4) primary key,
 	sale_ymd date not null,
@@ -87,7 +90,6 @@ select store_nm, 0 cash, sum(goods_price * sale_cnt) card
 from STORE_TBL_003 natural join goods_tbl_003 natural join sale_tbl_003
 where pay_type = '02'
 group by store_nm
-
 )
 group by store_nm
 order by  sum(card) desc
