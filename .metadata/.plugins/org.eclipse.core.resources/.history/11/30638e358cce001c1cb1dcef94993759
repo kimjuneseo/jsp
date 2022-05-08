@@ -1,0 +1,30 @@
+create table tbl_jumin_201808(
+	jumin char(14) primary key,
+	pname varchar2(16),
+	tel varchar2(13),
+	address varchar2(10)
+)
+
+insert into tbl_jumin_201808 values('700101-1000001','김주민','010-1234-0001','서울');
+insert into tbl_jumin_201808 values('700101-2000002','이주민','010-1234-0002','서울');
+insert into tbl_jumin_201808 values('700101-1000003','박주민','010-1234-0003','서울');
+insert into tbl_jumin_201808 values('700101-2000004','조주민','010-1234-0004','대전');
+insert into tbl_jumin_201808 values('700101-1000005','홍주민','010-1234-0005','대전');
+insert into tbl_jumin_201808 values('700101-2000006','나주민','010-1234-0006','대구');
+insert into tbl_jumin_201808 values('700101-1000007','황주민','010-1234-0007','대구');
+insert into tbl_jumin_201808 values('700101-2000008','용주민','010-1234-0008','광주');
+insert into tbl_jumin_201808 values('700101-1000009','백주민','010-1234-0009','광주');
+insert into tbl_jumin_201808 values('700101-2000010','송주민','010-1234-0010','광주');
+
+create table tbl_hosp_202108(
+	HOSPCODE CHAR(4) PRIMARY KEY,
+	HOSPNAME VARCHAR2(10),
+	HOSPTEL VARCHAR2(10),
+	HOSPADDR VARCHAR2(10)
+	
+)
+
+INSERT INTO TBL_HOSP_202108 VALUES('H001','가-병원','1588-0001','서울');
+INSERT INTO TBL_HOSP_202108 VALUES('H002','나-병원','1588-0002','대전');
+INSERT INTO TBL_HOSP_202108 VALUES('H003','다-병원','1588-0003','대구');
+INSERT INTO TBL_HOSP_202108 VALUES('H004','라-병원','1588-0004','광주');

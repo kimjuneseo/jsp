@@ -1,0 +1,27 @@
+create table tbl_jumin_201808(
+	jumin char(14) primary key,
+	pname varchar2(16),
+	tel varchar2(13),
+	address varchar2(10)
+)
+
+insert into tbl_jumin_201808 values('700101-1000001','±èÁÖ¹Î','010-1234-0001','¼­¿ï');
+insert into tbl_jumin_201808 values('700101-2000002','ÀÌÁÖ¹Î','010-1234-0002','¼­¿ï');
+insert into tbl_jumin_201808 values('700101-1000003','¹ÚÁÖ¹Î','010-1234-0003','¼­¿ï');
+insert into tbl_jumin_201808 values('700101-2000004','Á¶ÁÖ¹Î','010-1234-0004','´ëÀü');
+insert into tbl_jumin_201808 values('700101-1000005','È«ÁÖ¹Î','010-1234-0005','´ëÀü');
+insert into tbl_jumin_201808 values('700101-2000006','³ªÁÖ¹Î','010-1234-0006','´ë±¸');
+insert into tbl_jumin_201808 values('700101-1000007','È²ÁÖ¹Î','010-1234-0007','´ë±¸');
+insert into tbl_jumin_201808 values('700101-2000008','¿ëÁÖ¹Î','010-1234-0008','±¤ÁÖ');
+insert into tbl_jumin_201808 values('700101-1000009','¹éÁÖ¹Î','010-1234-0009','±¤ÁÖ');
+insert into tbl_jumin_201808 values('700101-2000010','¼ÛÁÖ¹Î','010-1234-0010','±¤ÁÖ');
+
+create table tbl_hosp_202108(
+	HOSPCODE CHAR(4) PRIMARY KEY,
+	HOSPNAME VARCHAR2(10),
+	HOSPTEL VARCHAR2(10),
+	HOSPADDR VARCHAR2(10)
+	
+)
+
+INSERT INTO TBL_HOSP_202108 VALUES('H001','°¡-º´¿ø','1588-0001','¼­¿ï');

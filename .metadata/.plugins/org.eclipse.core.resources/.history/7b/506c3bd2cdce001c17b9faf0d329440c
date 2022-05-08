@@ -1,0 +1,56 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<%@ include file="header.jsp"%>
+<section>
+	<h2 class="title">백신접종예약</h2>
+	<form action="insert_action.jsp" method="post" onsubmit="return fromChk();" name="insert_form">
+		<table border="1px">
+			<tr>
+				<td style="text-align: center;">접종예약번호</td>
+				<td><input type="text" name="num">예) 20210001</td>
+			</tr>
+			
+			<tr>
+				<td>주민번호</td>
+				<td><input type="text" name="jumin">예) 710101-10000001</td>
+			</tr>
+			
+			<tr>
+				<td>백신코드</td>
+				<td><input type="text" name="b_code">예) V0001 ~  V0003</td>
+			</tr>
+			
+			<tr>
+				<td>병원코드</td>
+				<td><input type="text" name="h_code">예) H0001</td>
+			</tr>
+			
+			<tr>
+				<td>예약일자</td>
+				<td><input type="text" name="date">예) 20211231</td>
+			</tr>
+			
+			<tr>
+				<td>예약시간</td>
+				<td><input type="text" name="time">예) 1230</td>
+			</tr>
+			<tr>
+				<td colspan="2" style="text-align: center;">
+					<button type="submit">등록</button>
+					<button onclick="reset()">다시쓰기</button>
+				</td>
+			</tr>
+		</table>
+	</form>
+</section>
+<%@ include file="footer.jsp"%>
+
+<script>
+	fuction formChk(){
+		const form = document.insert_form;
+		try{
+			if
+		}
+	}
+</script>

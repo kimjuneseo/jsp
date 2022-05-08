@@ -1,0 +1,8 @@
+create table tbl_jumin_201808(
+	jumin char(14) primary key,
+	pname varchar2(16),
+	tel varchar2(13),
+	address varchar2(10)
+)
+
+insert into tbl_jumin_201808 values('700101-1000001','±èÁÖ¹Î','010-1234-0001','¼­¿ï');

@@ -1,0 +1,14 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@ include file="header.jsp"%>
+<section>
+		<form action="baksinSelect.jsp" method="post">
+			<table border="1px">
+				<tr>
+					<td>예약번호를 입력하시오.</td>
+					<td></td>
+				<tr>
+			</table>
+		</form>
+</section>
+<%@ include file="footer.jsp"%>

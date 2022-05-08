@@ -1,0 +1,7 @@
+*{margin: 0; padding: 0; box-sizing: border-box; color: inherit;}
+a{text-decoration: none;}
+header h2{text-align: center; line-height: 80px; color: #000; background: #999;}
+header nav{display: flex; padding: .5rem; gap:1rem; color: #000; background:#333;}
+
+footer{position: fixed; left: 0; bottom: 0; width: 100%}
+footer div{text-align: center; line-height: 80px; color: #fff; background: #000}

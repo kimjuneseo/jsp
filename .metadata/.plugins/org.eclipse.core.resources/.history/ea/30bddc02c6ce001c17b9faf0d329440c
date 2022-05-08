@@ -1,0 +1,3 @@
+*{margin: 0; padding: 0; box-sizing: border-box; color: inherit;}
+a{text-decoration: none;}
+header h2{text-align: center; line-height: 80px;}
