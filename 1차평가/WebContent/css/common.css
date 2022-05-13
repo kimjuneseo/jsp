@@ -1,0 +1,8 @@
+*{margin: 0; padding: 0; box-sizing: border-box; color: inherit;}
+a{text-decoration: none;}
+header h2{width:100%; line-height: 60px; text-align: center; background: skyblue; color: #fff;}
+header nav{display: flex; gap:1rem; padding: 1rem; background: blue; color: #fff; width: 100%}
+
+.title{text-align: center; line-height: 50px; }
+table{margin: 0 auto;}
+footer{position: fixed; bottom: 0; width:100%; background: #999; color: #000; line-height: 100px; text-align: center;}
