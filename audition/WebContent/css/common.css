@@ -1,7 +1,7 @@
 *{margin: 0; padding: 0; box-sizing: border-box; color: inherit;}
 a{text-decoration: none;}
 .flex{display:flex;}
-header{width: 100%}
+header{width: 100%; background: #333;}
 header .title{text-align: center; color:#000; line-height: 100px; background: #fff;}
 nav{ padding:5px 2rem; background:blue; gap:1.5rem; color:#fff; }
 footer{width:100%; position: fixed; bottom: 0; left: 0}

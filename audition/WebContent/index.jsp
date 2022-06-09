@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<%@ include file = "header.html" %>
+<%@ include file = "header.jsp" %>
 <section id="index">
 	<h2 class="index_title">
 		과정평가형 CBQ

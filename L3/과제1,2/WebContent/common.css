@@ -1,0 +1,8 @@
+*{margin: 0; padding: 0; box-sizing: border-box; color:inherit;}
+table{margin:1rem auto; border-collapse: collapse; }
+td{text-align: center;}
+.title{text-align: center; border-bottom: 2px solid #333; }
+.container{margin: 0 auto; width: 1440px; }
+
+title,footer{padding: 2rem}
+footer{text-align: center; border-top: 2px solid #333; }

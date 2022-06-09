@@ -1,0 +1,12 @@
+*{margin: 0; padding: 0; box-sizing: border-box; color: inherit;}
+
+.flex{display: flex;}
+
+.container{width: 1500px; margin: 0 auto;}
+.menu .item{border-left: 1px solid #999; padding: 0rem .4rem;}
+.title{ border-bottom: 1px solid #999; padding: 1rem 0rem;}
+.sub_title{padding: 1rem 0rem;}
+.box{list-style: none; width: 400px; margin: 0rem 1rem; padding: 1rem; border:1px solid lightgreen; background: rgb(171, 237, 171);}
+li{padding: 0rem 2rem; }
+.cc{position: relative;}
+.cc::before{position: absolute; content: ''; top: 20%; left: 0; width: 10px; height: 10px; background: lightgreen; border-radius: 50%; border: 2px solid green;}
