@@ -1,0 +1,8 @@
+*{margin: 0; padding: 0; box-sizing: border-box; color: inherit;}
+
+a{text-decoration: none;}
+header h2{line-height: 60px; text-align:center; background: #333;}
+nav{display: flex; gap:1rem; padding: .5rem 1rem;}
+section{padding: 2rem 0rem}
+section .title{text-align: center; line-height: 50px;}
+footer p{text-align: center; line-height: 50px; background: #999;}

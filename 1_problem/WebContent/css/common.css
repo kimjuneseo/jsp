@@ -1,0 +1,13 @@
+*{margin: 0; padding: 0; box-sizing: border-box; color: inherit;}
+
+ul,li{list-style: none;}
+header h2{line-height: 60px;text-align: center; background: skyblue;}
+a{text-decoration: none;}
+nav{display: flex; gap:1rem; padding: .4rem 1rem; background: #000; color:#fff;}
+section{padding: 2rem;}
+table{margin: 0 auto; border:1px solid #000; border-collapse: collapse; }
+table,tr,td{border:1px solid #000; text-align: center;}
+.title{line-height: 40px; text-align: center;}
+.container{width: 1440px; margin: 0 auto;}
+
+footer{text-align: center; color: #fff; line-height: 80px; position: relative; bottom: 0; left: 0; background: skyblue;}

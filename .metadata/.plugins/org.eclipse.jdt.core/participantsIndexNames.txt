@@ -1,3 +1,7 @@
 INDEX VERSION 1.131
+C:\Users\june3\Desktop\jsp\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3264475709.index
+\2_problem\src
+C:\Users\june3\Desktop\jsp\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1832566775.index
+\1_problem\src
 C:\Users\june3\Desktop\jsp\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2575796327.index
 \L3\src
